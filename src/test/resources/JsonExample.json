@@ -1,0 +1,17 @@
+{
+    "firstName": "Alex",
+    "lastName": "Spirid",
+    "age": 55,
+    "user": false,
+  "contents": [
+    {
+      "taskID": 1,
+      "taskName": "Task1"
+    },
+    {
+      "taskID": 2,
+      "taskName": "Task2"
+    }
+  ],
+  "isDone": true
+}
