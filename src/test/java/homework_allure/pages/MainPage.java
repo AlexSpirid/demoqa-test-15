@@ -32,5 +32,4 @@ public class MainPage {
         searchInput.submit();
         return this;
     }
-
 }

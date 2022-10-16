@@ -15,5 +15,4 @@ public class SearchPage {
         repoLink.click();
         return this;
     }
-
 }
