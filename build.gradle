@@ -10,6 +10,10 @@ repositories {
     mavenCentral()
 }
 
+def allureVersion = "2.19.0",
+    slf4jVersion = "1.7.32"
+
+
 allure {
     report {
         version.set('2.19.0')
@@ -44,6 +48,17 @@ dependencies {
             'org.skyscreamer:jsonassert:1.5.1',
             'io.qameta.allure:allure-selenide:2.19.0',
     )
+}
+
+tasks.withType(Test) {
+    useJUnitPlatform()
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
 }
 
 test {
