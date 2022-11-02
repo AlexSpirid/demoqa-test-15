@@ -11,11 +11,8 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class WebSteps {
     MainPage mainPage = new MainPage();
-
     SearchPage searchPage = new SearchPage();
-
     RepoPage repoPage = new RepoPage();
-
 
     @Step("Открываем главную страницу")
     public void openMainPage() {
@@ -30,13 +27,11 @@ public class WebSteps {
     @Step("В результатах поиска кликаем по ссылке репозитория")
     public void clickOnLinkRepo() {
         searchPage.repoLinkClick();
-
     }
 
     @Step("Нажимаем на таб Issues")
     public void clickIssueTab() {
         repoPage.issueTabClick();
-
     }
 
     @Step("Проверяем название issue")

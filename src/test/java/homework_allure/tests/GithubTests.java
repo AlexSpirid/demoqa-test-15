@@ -1,6 +1,5 @@
 package homework_allure.tests;
 
-import homework_allure.BaseTest;
 import homework_allure.pages.MainPage;
 import homework_allure.pages.RepoPage;
 import homework_allure.pages.SearchPage;
@@ -13,7 +12,7 @@ import static io.qameta.allure.Allure.step;
 
 public class GithubTests extends BaseTest {
 
-    private static final String REPO_LINK = "AlexSpirid/qa_guru_hw_demoqa";
+    private static final String REPO_LINK = "AlexSpirid/demoqa-test-15";
 
     private static final String ISSUE_NAME = "Test issue";
 
