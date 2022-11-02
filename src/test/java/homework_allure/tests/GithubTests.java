@@ -13,7 +13,7 @@ import static io.qameta.allure.Allure.step;
 
 public class GithubTests extends BaseTest {
 
-    private static final String REPO_LINK = "lvo23/qa_guru_hw_demoqa";
+    private static final String REPO_LINK = "AlexSpirid/qa_guru_hw_demoqa";
 
     private static final String ISSUE_NAME = "Test issue";
 
@@ -61,7 +61,7 @@ public class GithubTests extends BaseTest {
     @Test
     @Feature("Issue в репозитории")
     @Story("Создать issue")
-    @Owner("litvinov_vo")
+    @Owner("AlexSpirid")
     @Severity(SeverityLevel.BLOCKER)
     @DisplayName("Проверить название issue – тест с аннотацией @Step")
     public void checkNameIssueAnnotationStep() {
